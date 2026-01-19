@@ -1,0 +1,39 @@
+# Obsync-PG Configuration File
+# Copy this to ~/.config/obsync-pg/config.yaml (Linux/macOS)
+# or %APPDATA%\obsync-pg\config.yaml (Windows)
+
+# Path to your Obsidian vault
+vault_path: "/Users/you/Documents/ObsidianVault"
+
+# PostgreSQL database connection settings
+database:
+  host: "your-vps-ip"
+  port: 5432
+  user: "postgres"
+  password: "${DB_PASSWORD}"  # Reads from DB_PASSWORD environment variable
+  database: "obsidian_sync"   # Your Supabase/PostgreSQL database name
+  # schema: "my_vault"        # Optional: if omitted, derived from vault folder name
+                              # e.g., "My Obsidian Vault" -> "my_obsidian_vault"
+                              # Each vault gets its own schema for isolation
+  sslmode: "require"          # Options: disable, require, verify-ca, verify-full
+
+# Sync behavior settings
+sync:
+  debounce_ms: 2000           # Wait 2s after last change before syncing
+  max_binary_size_mb: 50      # Skip binary files larger than this
+  batch_size: 100             # Files per transaction during bulk operations
+  retry_attempts: 3           # Number of retry attempts for failed syncs
+  retry_delay_ms: 1000        # Delay between retry attempts
+
+# Glob patterns for files/folders to ignore (relative to vault root)
+ignore_patterns:
+  - ".obsidian/**"            # Obsidian config folder
+  - ".trash/**"               # Obsidian trash
+  - ".git/**"                 # Git repository
+  - "**/.DS_Store"            # macOS system files
+  - "**/node_modules/**"      # Node.js dependencies
+
+# Optional: Only sync specific folders (if specified, only these are synced)
+# include_patterns:
+#   - "notes/**"
+#   - "projects/**"
