@@ -409,7 +409,7 @@ level=WARN msg="retry failed" path=note.md attempt=2 error="timeout"
 
 If you're still stuck:
 
-1. **Check existing issues:** [GitHub Issues](https://github.com/deveric/obsync-pg/issues)
+1. **Check existing issues:** [GitHub Issues](https://github.com/vonshlovens/obsync-pg/issues)
 
 2. **Gather diagnostic info:**
    ```bash

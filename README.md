@@ -18,10 +18,10 @@ A cross-platform Go application that monitors an Obsidian vault folder and syncs
 
 ```bash
 # From source
-go install github.com/deveric/obsync-pg/cmd/obsync-pg@latest
+go install github.com/vonshlovens/obsync-pg/cmd/obsync-pg@latest
 
 # Or build from source
-git clone https://github.com/deveric/obsync-pg.git
+git clone https://github.com/vonshlovens/obsync-pg.git
 cd obsync-pg
 make build
 ```

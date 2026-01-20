@@ -35,4 +35,4 @@ Welcome to the Obsync-PG documentation. These guides will help you set up and us
 ## Need Help?
 
 - Check the [Troubleshooting Guide](troubleshooting.md)
-- Open an issue on [GitHub](https://github.com/deveric/obsync-pg/issues)
+- Open an issue on [GitHub](https://github.com/vonshlovens/obsync-pg/issues)

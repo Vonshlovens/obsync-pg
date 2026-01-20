@@ -14,7 +14,7 @@ This guide will walk you through setting up Obsync-PG to sync your Obsidian vaul
 
 ```bash
 # Clone the repository
-git clone https://github.com/deveric/obsync-pg.git
+git clone https://github.com/vonshlovens/obsync-pg.git
 cd obsync-pg
 
 # Build the binary
@@ -29,7 +29,7 @@ sudo mv bin/obsync-pg /usr/local/bin/
 ### Option B: Install directly with Go
 
 ```bash
-go install github.com/deveric/obsync-pg/cmd/obsync-pg@latest
+go install github.com/vonshlovens/obsync-pg/cmd/obsync-pg@latest
 ```
 
 ### Verify installation

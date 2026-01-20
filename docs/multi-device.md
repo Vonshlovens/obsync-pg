@@ -50,13 +50,13 @@ Currently, **last-write-wins**. If you edit the same file on two devices simulta
 
 ```bash
 # Build from source
-git clone https://github.com/deveric/obsync-pg.git
+git clone https://github.com/vonshlovens/obsync-pg.git
 cd obsync-pg
 go build -o bin/obsync-pg ./cmd/obsync-pg
 sudo mv bin/obsync-pg /usr/local/bin/
 
 # Or install directly
-go install github.com/deveric/obsync-pg/cmd/obsync-pg@latest
+go install github.com/vonshlovens/obsync-pg/cmd/obsync-pg@latest
 ```
 
 ### Step 2: Create Config File
