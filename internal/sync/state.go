@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deveric/obsync-pg/internal/config"
+	"github.com/vonshlovens/obsync-pg/internal/config"
 )
 
 // FileState represents the sync state of a single file

@@ -14,10 +14,10 @@ import (
 	"github.com/bmatcuk/doublestar/v4"
 	"github.com/schollz/progressbar/v3"
 
-	"github.com/deveric/obsync-pg/internal/config"
-	"github.com/deveric/obsync-pg/internal/db"
-	"github.com/deveric/obsync-pg/internal/parser"
-	"github.com/deveric/obsync-pg/internal/watcher"
+	"github.com/vonshlovens/obsync-pg/internal/config"
+	"github.com/vonshlovens/obsync-pg/internal/db"
+	"github.com/vonshlovens/obsync-pg/internal/parser"
+	"github.com/vonshlovens/obsync-pg/internal/watcher"
 )
 
 // Engine handles file synchronization logic

@@ -14,10 +14,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/deveric/obsync-pg/internal/config"
-	"github.com/deveric/obsync-pg/internal/db"
-	"github.com/deveric/obsync-pg/internal/sync"
-	"github.com/deveric/obsync-pg/internal/watcher"
+	"github.com/vonshlovens/obsync-pg/internal/config"
+	"github.com/vonshlovens/obsync-pg/internal/db"
+	"github.com/vonshlovens/obsync-pg/internal/sync"
+	"github.com/vonshlovens/obsync-pg/internal/watcher"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/pressly/goose/v3"
 
-	"github.com/deveric/obsync-pg/internal/config"
+	"github.com/vonshlovens/obsync-pg/internal/config"
 )
 
 // DB wraps the database connection pool

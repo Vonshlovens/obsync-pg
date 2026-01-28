@@ -1,4 +1,4 @@
-module github.com/deveric/obsync-pg
+module github.com/vonshlovens/obsync-pg
 
 go 1.25.5
 
